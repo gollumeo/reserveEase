@@ -1,4 +1,6 @@
 package app.reserveEase.infrastructure.persistence;
 
-public class ReservationRepository {
+import app.reserveEase.domain.repositories.IReservationRepository;
+
+public class ReservationRepository implements IReservationRepository {
 }
