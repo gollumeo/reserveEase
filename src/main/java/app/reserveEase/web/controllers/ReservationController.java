@@ -8,16 +8,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/test")
-public class TestController {
-
-    @GetMapping("/coucou")
-    public Map<String, String> coucou() {
-        Map<String, String> response = new HashMap<>();
-        response.put("message", "test");
-        response.put("status", "dcftvgb");
-
-        return response;
+@RequestMapping("/reservations")
+public class ReservationController {
+    @GetMapping("/")
+    public Object getReservations() {
+        return new HashMap<Integer, String>() {{
+            put(1, "Reservation 5");
+        }};
     }
-
 }
