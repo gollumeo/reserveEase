@@ -109,4 +109,4 @@ You will be developing a web application to book accommodations such as hotels, 
 - Integrate a real payment gateway (e.g., Stripe, PayPal) to handle secure transactions.
 - Manage payment processing, receipts, and refunds.
 
-Thanks to BeCode's coach, Pierre N. 
+Thanks to BeCode's coach, [Pierre N.](https://github.com/pierrenoel). 
