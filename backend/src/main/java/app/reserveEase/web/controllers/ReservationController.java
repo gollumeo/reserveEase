@@ -9,10 +9,10 @@ import java.util.HashMap;
 @RestController
 @RequestMapping("/reservations")
 public class ReservationController {
-    @GetMapping("/")
+    @GetMapping("")
     public Object getReservations() {
         return new HashMap<Integer, String>() {{
-            put(1, "Reservation 5");
+            put(1, "Reservation 5564");
         }};
     }
 }
