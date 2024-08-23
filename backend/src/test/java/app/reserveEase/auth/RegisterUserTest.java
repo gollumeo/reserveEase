@@ -1,5 +1,7 @@
 package app.reserveEase.auth;
 
+import app.reserveEase.domain.services.Registrator;
+import app.reserveEase.domain.valueobjects.Email;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
